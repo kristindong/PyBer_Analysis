@@ -1,36 +1,31 @@
 # PyBer_Analysis
 
 ## Overview
-PyBer is a ride-sharing app company valued at $2.3 billion. The purpose of this project is analyze ride-share data for different city types and to create compelling visualization that helps management make business decisions. The data is based on PyBer's ride-share data for 120 cities from January to early May of 2019.
+PyBer is a ride-sharing app company valued at $2.3 billion. The purpose of this project is analyze PyBer's ride-share data for different city types and to create compelling visualization to help management make business decisions. The analysis is based on PyBer's ride-share data for 120 cities from January to early May of 2019.
 
 
 ## Resources
 Data Source: 
+
 city_data.csv
+
 ride_data.csv
 
 
 ## Results
-Replacing the Thomas High School 9th grade scores had the following impacts:
-
-* District summary - average scores and passing rates all decreased compared to the original analysis
-
-  Before change:
+The table below summarizes ride-sharing statistics for three city types - rural, suburban, and urban.
   
-  ![Pyber_data_summary](analysis/Pyber_data_summary.png)
+![Pyber_data_summary](analysis/Pyber_data_summary.png)
   
-  After change:
-  
-  ![PyBer_fare_summary](analysis/PyBer_fare_summary.png)
-  
+* Urban cities had the highest total number of rides, drivers and fares, and the lowest averge fare per ride and average fare per driver 
+* Rural cities had the lowest total number of rides, drivers and fares, and the highest average fare per ride and average fare per driver
+* Suburban city statistics were in between those of rural and urban
+* 
 
+The chart below shows weekly fares by city type from January to April 2019. 
 
-* Scores by school spending - the change impacted the $631-$645 per student spending range. It increased the range's average reading score while lowering the math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for other spending ranges.
-
-
-* Scores by school size - the change increased the medium-sized school average reading score while lowering math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for other school sizes.
-
-* Scores by school type - the change increased the Charter school average reading score while lowering math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for District schools.
+![PyBer_fare_summary](analysis/PyBer_fare_summary.png)
+ 
 
 
 ## Summary
