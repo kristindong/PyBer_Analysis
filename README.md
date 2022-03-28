@@ -1,7 +1,7 @@
 # PyBer_Analysis
 
 ## Overview
-In a previous analysis, school performance based on math and reading scores were evaluated for 15 high schools in the school district. However, the school board suspects that the grades for Thomas High School ninth graders were altered, and requested that the analysis be re-run ignoring the grades in question. To accomplish this, math and reading grades for Thomas High School ninth graders were set to NaNs in the data.
+PyBer is a ride-sharing app company valued at $2.3 billion. The purpose of this project is analyze ride-share data for different city types and to create compelling visualization that helps management make business decisions. The data is based on PyBer's ride-share data for 120 cities from January to early May of 2019.
 
 
 ## Resources
@@ -23,25 +23,6 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
   
   ![PyBer_fare_summary](analysis/PyBer_fare_summary.png)
   
-  
-* School summary - Thomas High School's average reading score increased while math score, math passing rate, reading rate and overall passing rate  decreased
-
-  Before change:
-  
-  ![THS_old](THS_old.png)
-  
-  After change:
-  
-  ![THS_new](THS_new.png)
-  
-* School ranking - the change did not impact Thomas High School's ranking. It's still ranked 2nd based on overall passing percentage.
-
-
-* Math and reading scores by grade - the change set Thomas High School's 9th grade math and reading scores to NaN. It did not impact the School's average math and reading     scores for 10th, 11th, and 12th grades.
-
-  After change math scores by grade:
-
-  ![ByGrade_reading_new](ByGrade_reading_new.png)
 
 
 * Scores by school spending - the change impacted the $631-$645 per student spending range. It increased the range's average reading score while lowering the math score, math passing rate, reading passing rate, and overall passing rate. It did not impact the metrics for other spending ranges.
