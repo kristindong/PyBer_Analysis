@@ -17,11 +17,11 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 
   Before change:
   
-  ![District_Summary_old](District_Summary_old.png)
+  ![PyBer_data_summary](analysis/PyBer_data_summary.png)
   
   After change:
   
-  ![District_Summary_new](District_Summary_new.png)
+  ![PyBer_fare_summary](analysis/PyBer_fare_summary.png)
   
   
 * School summary - Thomas High School's average reading score increased while math score, math passing rate, reading rate and overall passing rate  decreased
