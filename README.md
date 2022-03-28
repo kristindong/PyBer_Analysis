@@ -17,7 +17,7 @@ Replacing the Thomas High School 9th grade scores had the following impacts:
 
   Before change:
   
-  ![PyBer_data_summary](analysis/PyBer_data_summary.png)
+  ![Pyber_data_summary](analysis/Pyber_data_summary.png)
   
   After change:
   
